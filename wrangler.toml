@@ -4,3 +4,12 @@ account_id = ""
 workers_dev = true
 route = ""
 zone_id = ""
+
+kv_namespaces = [
+	{ binding = "kv", id = "48076b1a12ef4ed4a68d9f21b8568594", preview_id = "48076b1a12ef4ed4a68d9f21b8568594" }
+]
+
+[build]
+command = "yarn install && yarn build"
+[build.upload]
+format = "service-worker"

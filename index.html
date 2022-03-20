@@ -41,7 +41,7 @@
         <small>A Cloudflare Worker + GitHub Pages Login Example</small>
     </h1>
     <p id="signed-out">
-        <a href="https://ga.wya.workers.dev">Login with GitHub</a>
+        <a href="https://ga.wya.workers.dev/auth/">Login with GitHub</a>
     </p>
     <p id="signed-in">
         Hello there, <span id="login"></span>. (<a href=".">Logout</a>)
@@ -51,7 +51,7 @@
     </p>
 
     <script>
-        const WORKER_URL = "https://ga.wya.workers.dev";
+        const WORKER_URL = "https://ga.wya.workers.dev/auth/";
         const code = new URL(location.href).searchParams.get("code");
         const $login = document.querySelector("#login");
 
@@ -101,4 +101,5 @@
         }
     </script>
 </body>
+
 </html>

@@ -40,7 +40,7 @@ REST API: [gh.wya.workers.dev](https://gh.wya.workers.dev)
 
 This project is a work in progress, use at your own risk.
 
-This is literally broken!
+This project is not properly licensed. Agreements might be ineffective, use at your own risk. For more details, go to [License](#license).
 
 <!-- Mention examples of application of this repository. -->
 ## **Usage**
@@ -164,13 +164,25 @@ Instructions coming soon
 <!-- License section. Leave unchanged except when updating the year, using a different license, or changing the style altogether. -->
 ## **License**
 
-### <a target="_blank" href="https://choosealicense.com/licenses/isc/">ISC</a>
+This project might be illegal, due to conflict in license. This is due to the fact that this project is a derivative of an ISC-licensed repo and two MIT-licensed repos.
 
-Copyright for portions of project [gh-oa-cf-wk](https://github.com/whinee/gh-oa-cf-wk) are held by [Github Account [Gregor Martynus](https://github.com/gr2m) Owner, 2019] as part of project [cloudflare-worker-github-oauth-login](https://github.com/gr2m/cloudflare-worker-github-oauth-login).
+Now, I have raised an issue to the ISC-licensed repo <a target="_blank" href="https://github.com/gr2m/cloudflare-worker-github-oauth-login/issues/13">here</a>.
+
+While the issue is still unresolved, I made it so that the changes I have done on this derivative will be licensed under MIT and the license agreement will be written on [docs/LICENSE.md](LICENSE.md), while everything that I have got from the said ISC-licensed repository will still be licensed under ISC and the license agreement will be written on [docs/NOTICE.md](NOTICE.md).
+
+### **<a target="_blank" href="https://choosealicense.com/licenses/isc/">ISC LICENSE</a>**
+
+Copyright 2019 [Gregor Martynus](https://github.com/gr2m)
+
+Go to [NOTICE](NOTICE.md) for the full license agreement.
+
+### **<a target="_blank" href="https://choosealicense.com/licenses/mit/">MIT LICENSE</a>**
+
+Copyright for portions of project [gh-oa-cf-wk](https://github.com/whinee/gh-oa-cf-wk) are held by [Github Account [whinee](https://github.com/whinee) Owner, 2022] as part of project [cf-worker](https://github.com/whinee/cf-worker), [Github Account [ashley williams](https://github.com/[ashleygwilliams) Owner, 2015] as part of project [Pink-Cat-Boo](https://github.com/cloudflare/worker-template) and by [Github Account [HaxSam](https://github.com/HaxSam) Owner, 2022] as part of project [kv-storage-api](https://github.com/HaxSam/kv-storage-api).
 
 All other copyright for project [gh-oa-cf-wk](https://github.com/whinee/gh-oa-cf-wk) is held by [Github Account [whinee](https://github.com/whinee) Owner, 2022].
 
-Check the [LICENSE](LICENSE.md) for more details.
+Go to [LICENSE](LICENSE.md) for the full license agreement.
 
 ## **Credits**
 

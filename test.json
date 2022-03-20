@@ -1,0 +1,15 @@
+{
+    "description": "whi_ne's personal site",
+    "id": 81570596,
+    "record": {
+        "CNAME": "whinee.github.io"
+    },
+    "subdomain": {
+        "blog": {
+            "description": "whi_ne's blog",
+            "record": {
+                "CNAME": "whnya.github.io"
+            }
+        }
+    }
+}
