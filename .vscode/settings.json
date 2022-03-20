@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": "file:///home/whine/whi_ne/1/tools/programming/projects/web%20dev/cloudflare-worker-github-oauth-login/.github/workflows/deploy.yml"
+    }
+}
