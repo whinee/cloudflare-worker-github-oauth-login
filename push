@@ -45,7 +45,6 @@ def cmd(v: str, g: bool=False, publish: bool=False):
                 else:
                     f.pr = None
             else:
-                f.pr == "alpha"
                 cvp = cvp.bump_patch()
             cvp = cvp.replace(prerelease=f"{f.pr}.1" if f.pr else None)
         else:

@@ -1,9 +1,8 @@
 import Router from "../utilities/router";
 
 const router = new Router();
-
-async function required(request: any){
-    try {
+router.post("/*", async (request) => {
+	try {
         const { code } = await request.json();
         const response = await fetch(
             "https://github.com/login/oauth/access_token",
@@ -39,10 +38,9 @@ async function required(request: any){
             status: 500,
         });
     }
-}
+});
 
 router.get("/", async (request) => {
-    await required(request);
 	return Response.redirect(
         `https://github.com/login/oauth/authorize?client_id=${CLIENT_ID}`,
         302
