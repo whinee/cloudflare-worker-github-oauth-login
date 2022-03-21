@@ -1,8 +1,18 @@
 import Router from "../utilities/router";
 
 const router = new Router();
+
+router.options("/", async (request) => {
+    return new Response(null, {
+        headers: {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type",
+        },
+    });
+});
 router.post("/*", async (request) => {
-	try {
+    try {
         const { code } = await request.json();
         const response = await fetch(
             "https://github.com/login/oauth/access_token",
@@ -12,13 +22,13 @@ router.post("/*", async (request) => {
                     "content-type": "application/json",
                     "accept": "application/json",
                 },
-                body: JSON.stringify({"client_id": CLIENT_ID, "client_secret": CLIENT_SECRET, "code": code}),
+                body: JSON.stringify({ "client_id": CLIENT_ID, "client_secret": CLIENT_SECRET, "code": code }),
             }
         )
         if (response.status >= 400) {
             throw new Error('Bad response from server')
-          }
-        
+        }
+
         const result: any = await response.json()
         const headers = {
             "Access-Control-Allow-Origin": "*",
@@ -41,7 +51,7 @@ router.post("/*", async (request) => {
 });
 
 router.get("/", async (request) => {
-	return Response.redirect(
+    return Response.redirect(
         `https://github.com/login/oauth/authorize?client_id=${CLIENT_ID}`,
         302
     );

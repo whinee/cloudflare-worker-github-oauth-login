@@ -2,7 +2,7 @@
     <a target="_blank" href="https://choosealicense.com/licenses/mit/">MIT LICENSE</a>
 </h1>
 
-Copyright for portions of project [gh-oa-cf-wk](https://github.com/whinee/gh-oa-cf-wk) are held by [Github Account [whinee](https://github.com/whinee) Owner, 2022] as part of project [cf-worker](https://github.com/whinee/cf-worker), [Github Account [ashley williams](https://github.com/[ashleygwilliams) Owner, 2015] as part of project [Pink-Cat-Boo](https://github.com/cloudflare/worker-template) and by [Github Account [HaxSam](https://github.com/HaxSam) Owner, 2022] as part of project [kv-storage-api](https://github.com/HaxSam/kv-storage-api).
+Copyright for portions of project [gh-oa-cf-wk](https://github.com/whinee/gh-oa-cf-wk) are held by [Github Account [whinee](https://github.com/whinee) Owner, 2022] as part of project [cf-worker](https://github.com/whinee/cf-worker), [Github Account [ashley williams](https://github.com/[ashleygwilliams) Owner, 2015] as part of project [worker-template](https://github.com/cloudflare/worker-template), [Github Account [HaxSam](https://github.com/HaxSam) Owner, 2022] as part of project [kv-storage-api](https://github.com/HaxSam/kv-storage-api), and by [Github Account [Gregor Martynus](https://github.com/gr2m) Owner, 2019] as part of project [cloudflare-worker-github-oauth-login](https://github.com/gr2m/cloudflare-worker-github-oauth-login).
 
 All other copyright for project [gh-oa-cf-wk](https://github.com/whinee/gh-oa-cf-wk) is held by [Github Account [whinee](https://github.com/whinee) Owner, 2022].
 

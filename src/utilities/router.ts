@@ -13,6 +13,7 @@ export default class Router {
 		this.response["POST"] = new Map();
 		this.response["PUT"] = new Map();
 		this.response["DELETE"] = new Map();
+        this.response["OPTIONS"] = new Map();
 	}
 
 	use(prefix: string, middleware: Router | callbackUndefinedFunc) {
@@ -35,6 +36,11 @@ export default class Router {
 	delete(route: string, callback: callbackFunc) {
 		const { DELETE } = this.response;
 		DELETE.set(route, callback);
+	}
+
+    options(route: string, callback: callbackFunc) {
+		const { OPTIONS } = this.response;
+		OPTIONS.set(route, callback);
 	}
 
 	private getWildcard(route: string, method: string) {
